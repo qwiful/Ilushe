@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Для Илюши</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="hearts-container"></div>
+
+    <div id="main-menu" class="menu">
+      <h1 class="main-title">Илюше, чтобы он не грустил &lt;3</h1>
+      <p class="choose-text">Выбери тему ниже</p>
+      <div class="buttons">
+        <button class="theme-btn" data-theme="tilt">Всё плохо / нет сил</button>
+        <button class="theme-btn" data-theme="miss">Скучаю</button>
+        <button class="theme-btn" data-theme="plans">Планы вместе</button>
+        <button class="theme-btn" data-theme="secret">Секретик =)</button>
+      </div>
+    </div>
+
+    <div id="gallery-screen" class="gallery hidden">
+      <button id="back-btn" class="back-btn">Назад к темам</button>
+      <h2 id="theme-title" class="theme-title"></h2>
+      <div class="photo-frame">
+        <img id="current-photo" class="photo" alt="Фотография" src="" />
+      </div>
+      <p class="hint">нажми на фото</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
