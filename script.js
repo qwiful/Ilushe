@@ -113,7 +113,7 @@ function loadTheme(themeKey) {
     tilt: 'Всё бесит / нет сил',
     miss: 'Скучаю',
     plans: 'Планы вместе',
-    secret: 'Секретик)',
+    secret: 'Уже не секретик)',
   }
   themeTitle.innerText = themeNames[themeKey] || 'Фотографии'
 }
