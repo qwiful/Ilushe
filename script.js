@@ -75,6 +75,10 @@ const photoLists = {
     'photo/plans/9.jpg',
     'photo/plans/10.jpg',
     'photo/plans/11.jpg',
+    'photo/plans/12.jpg',
+    'photo/plans/13.jpg',
+    'photo/plans/14.jpg',
+    'photo/plans/15.jpg',
   ],
   secret: ['photo/secret/1.jpg'],
 }
